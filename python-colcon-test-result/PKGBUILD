@@ -9,7 +9,7 @@ arch=(any)
 url="https://pypi.org/project/colcon-test-result"
 license=('Apache')
 depends=('python-colcon-core')
-makedepends=('python-setuptools')
+makedepends=('python-setuptools' 'python-build' 'python-wheel' 'python-installer')
 source=(
     https://github.com/colcon/colcon-test-result/archive/refs/tags/${pkgver}.tar.gz
     upstream.path::https://github.com/colcon/colcon-test-result/compare/0.3.8...master.patch)
